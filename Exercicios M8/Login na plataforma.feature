@@ -13,23 +13,13 @@ Quando Eu digitar o usuario "joao@ebac.com.br"
 E a Senha "Senha@123"
 Então Deve redirecionar o usuario para a tela "checkout"
 
-Funcionalidade: Usuario Inexistente
-Quando Eu digitar o usuario "xxyyzz@ebac.com.br"
-E a Senha "Senha@123"
-Então Deve exibir uma mensagem de alerta "Usuário ou senha inválidos"
-
-Funcionalidade: Usuario com Senha invalida
-Quando Eu digitar o usuario "joao@ebac.com.br"
-E a senha "qwertyuiop"
-Então Deve exibir uma mensagem de alerta "Usuário ou senha inválidos" 
-
 Esquema do Cenário: Autenticar Multiplos Usuarios
 Quando Eu digitar o <Usuario>
 E a <Senha>
-Então Deve exibir a <mensagem> de Sucesso 
+Então Deve exibir a <mensagem> de Erro
 
 Exemplos: 
-| Usuario            | Senha    | mensagem   |
-|"joao@ebac.com.br"  |teste@123 |"Acesso ok" |
-|"maria@ebac.com.br" |teste@123 |"Acesso Ok" |
-|"jose@ebac.com.br"  |teste@123 |"Acesso Ok" |
+| Usuario             | Senha     | mensagem                    |
+|"xxyyzz@ebac.com.br" |teste@123  |"Usuário ou senha inválidos" |
+|"maria@ebac.com.br"  |qwertyuiop |"Usuário ou senha inválidos" |
+
