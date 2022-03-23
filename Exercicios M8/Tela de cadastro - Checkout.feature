@@ -8,44 +8,6 @@ Para finalizar minha compra
 Contexto:
 Dado Que eu tenha efetuado acesso a tela de checkout
 
-Funcionalidade: Cadastro de Nome
-Quando eu efetuar o cadastro do "Nome"
-Então deve gravar o digitado no campo "Nome"
-
-Funcionalidade: Cadastro Sobrenome
-Quando eu efetuar o cadastro do "Sobrenome"
-Então deve gravar o digitado no campo "Sobrenome"
-
-Funcionalidade: Cadastro de Pais
-Quando Eu efetuar o acesso "Menu de seleção"
-E selecionar o pais "Brasil"
-Então deve gravar as escolha do "Pais"
-
-Funcionalidade: Cadastro de Endereço
-Quando eu efetuar a seleção do campo "Endereço"
-E Efetuar o preenchimento do endereço "rua da prata"
-Então Deve gravar o item preenchido como "Endereço"
-
-Funcionalidade: Cadastro de Cidade
-Quando eu efetuar a seleção do campo "Cidade"
-E Efetuar o preenchimento "Osasco"
-Então deve gravar o preenchimento item como "Endereço"
-
-Funcionalidade: Cadastro de Cep
-Quando Eu efetuar a seleção do campo "Cep"
-E Efetuar o preenchimento "06390-540"
-Então deve gravar o preenchimento item como "Cep"
-
-Funcionalidade: Cadastro de Telefone
-Quando Eu efetuar a seleção do campo "Telefone"
-E Efetuar o preenchimento "999999999"
-Então deve gravar o preenchimento item como "Telefone"
-
-Funcionalidade: Cadastro de E-mail
-Quando Eu efetuar a seleção do campo "E-Mail"
-E Efetuar o preenchimento "ebac@teste.com"
-Então deve gravar o preenchimento item como "Email"
-
 Funcionalidade: Cadastro de E-mail inexistente
 Quando Eu efetuar a seleção do campo "E-Mail"
 E Efetuar o preenchimento "xxyyqqww.br.com"
