@@ -13,11 +13,6 @@ Quando Eu efetuar a seleção do campo "E-Mail"
 E Efetuar o preenchimento "xxyyqqww.br.com"
 Então deve exibir uma mensagem de alerta "Email incorreto"
 
-Funcionalidade: Cadastro com campo Vazio
-Quando Eu não efetuar o cadastro dos campos obrigatorios "*"
-E deixar o campo "   "
-Então deve exibir uma mensagem de alerta "Campo obrigatorio"
-
 Funcionalidade: Finalizar Compra
 Quando Eu efetuar a seleção do campo "Finalizar compra"
 E clicar no item "Finalizar compra"
